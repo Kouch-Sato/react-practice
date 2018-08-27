@@ -1,0 +1,27 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+  width: 330px;
+  margin: 20px auto;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.container li {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+  margin: 0 5px 10px;
+}
